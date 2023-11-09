@@ -3,7 +3,7 @@ import methods
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread(r'C:\Users\ilaig\PycharmProjects\pythonProject1\car_plate.jpg')
+image = cv2.imread(r'https://github.com/IlaiGamzu/Computer-vision-haarcascade_russian_plate_number/blob/main/car_plate.jpg')
 if image is None:
     print ("Your image not exist")
     exit(1)
