@@ -10,7 +10,7 @@ if image is None:
 img_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # Load the license plate cascade classifier
-plate_cascade = cv2.CascadeClassifier(r'C:\Users\ilaig\PycharmProjects\pythonProject1\haarcascade_russian_plate_number.xml')
+plate_cascade = cv2.CascadeClassifier(r'https://github.com/IlaiGamzu/Computer-vision-haarcascade_russian_plate_number/blob/main/haarcascade_russian_plate_number.xml')
 
 # Display the image
 methods.display(img_rgb)
